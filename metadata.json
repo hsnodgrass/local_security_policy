@@ -7,11 +7,25 @@
   "source": "https://github.com/ayohrling/local_security_policy",
   "project_page": "https://github.com/ayohrling/local_security_policy",
   "issues_url": "https://github.com/ayohrling/local_security_policy/issues",
-  "tags": ["windows", "security"],
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "windows"
     }
   ],
-  "dependencies": [ ]
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "tags": [
+    "windows",
+    "security"
+  ],
+  "pdk-version": "1.14.1",
+  "template-url": "pdk-default#1.14.1",
+  "template-ref": "1.14.1-0-g0b5b39b"
 }
